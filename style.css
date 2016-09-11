@@ -1,0 +1,103 @@
+form {
+   /*  display: none;/* inline-flex  */
+ 
+    margin: 5px 0 0 0;
+}
+
+input#pwd {
+    margin-left: 5px;
+   
+}
+
+button.btn.btn-primary {
+    margin-left: 0;
+}
+#signin {
+    display: inline-block;
+    position: absolute;
+    right:10%;
+    top: 5px;
+}
+
+.content{
+margin-top:40px;
+}
+ #login {
+    display: inline-flex;
+    position: relative!important;
+    left: 41% !important;
+    bottom: 35px;
+}
+
+.red{
+
+    color:white;
+}
+
+
+#btn{
+
+    position:reletive;
+    left:415px;
+    top:-1px;
+}
+
+/*@media only screen and (max-width: 400px) {
+
+   
+.container-fluid{
+height: 170px;  
+position: absolute;
+background-color: #333;
+margin-bottom:300px;
+}
+
+#usr{
+  
+position:relative;
+top:20px;
+left:-108px;  
+}
+
+#pwd{
+position:relative;
+top:55px;
+left:-226px; 
+ 
+}
+
+  #btn{
+
+position:relative;
+top:92px;
+left:-337px; 
+
+  }
+
+  /*row{*/
+ 
+    /*.form-group #usr{
+        background-color: red; 
+        display: block;
+}
+    .form-group #pwd{
+
+        display: block;
+
+    }
+    .form-group #signin{
+
+        display: block;
+
+    }*/    
+
+
+/*#usr,#pwd,#signin
+{
+    background-color: red;
+    display: block !important;
+}
+*/
+
+
+}

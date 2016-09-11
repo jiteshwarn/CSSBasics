@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="myApp">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container-fluid" ng-controller="myCtrl">
+		<nav class="navbar navbar-inverse">
+  			<div class="container-fluid">
+    			<div class="navbar-header" >
+      				<a class="navbar-brand" href="#">Company Name</a>
+
+
+					<form role="form" name="myForm" ng-show="testing" class="formdata">
+						<div  id="login">
+
+							<div class="form-group">
+								
+									<input type="email" class="form-control" name="myemail" ng-model="user.email"  id="usr" Placeholder="Email" required />		
+								
+							</div>
+
+							<div class="form-group">
+								
+								<input type="password" class="form-control" name="myPassword" ng-model="user.password" id="pwd" Placeholder="Password" required/>
+
+						 </div>
+
+						 <div class="form-group">
+
+							<button type="button" id="btn" class="btn btn-success" ng-click="dataValidation()">Sign In</button>	
+							
+						 </div>
+
+						 </div>
+						
+					</form>
+
+<button type="button" id="signin" class="btn btn-success" ng-click="validateForm()" ng-show="disable">Sign In</button>
+
+					<div ng-show="success" class="red" data-jitesh-page-directive>Thanks for submitting the details.</div>
+	                <div ng-show="error" class="red">Please enter valid details.</div>
+
+				</div>
+			</div>
+		</nav>
+		<div class="row">
+			<div class="col-md-offset-1 col-md-10 col-md-offset-1">
+			<h1>Page Heading</h1>
+			<div data-jitesh-page-directive></div>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse scelerisque posuere orci non tincidunt. Donec eget turpis vitae mi mattis 
+			mattis.Ut in nisl sem. Curabitur tellus tellus, porta sed enim in, placerat tincidunt quam. Duis ultricies cursus massa, a vestibulum nibh 
+			convallis sed. Integer tincidunt aliquet ipsum, vitae iaculis elit tempor a. Duis imperdiet, ex sit amet bibendum vehicula, odio lorem finibus nisi, pretium mattis
+			magna dui eget massa.
+			</p>
+			<button type="button" class="btn btn-primary">Learn more>></button>
+			</div>
+		</div>
+		<div class="row content">
+			<div class="col-md-offset-1 col-md-3">
+			<h4>Heading</h4>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit
+			uspendisse scelerisque posuere orci non tincidunt. Donec eget turpis vitae mi mattis 
+			mattis.Ut in nisl sem.
+			</div>
+			<div class="col-md-3">
+			<h4>Heading</h4>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit
+			uspendisse scelerisque posuere orci non tincidunt. Donec eget turpis vitae mi mattis 
+			mattis.Ut in nisl sem.
+			</div>
+			<div class="col-md-3">
+			<h4>Heading</h4>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit
+			uspendisse scelerisque posuere orci non tincidunt. Donec eget turpis vitae mi mattis 
+			mattis.Ut in nisl sem.
+			</div>
+			
+		</div>
+		
+    </div>
+	
+
+
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
