@@ -1,0 +1,17 @@
+{
+  "name": "nodedemos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01Node.js",
+  "scripts": {
+    "start": "nodemon 08Node"
+  },
+  "author": "Jitesh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
